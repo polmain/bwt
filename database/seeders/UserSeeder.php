@@ -3,9 +3,10 @@
 namespace Database\Seeders;
 
 use App\Models\Company;
+use App\Models\User;
 use Illuminate\Database\Seeder;
 
-class CompanySeeder extends Seeder
+class UserSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -14,8 +15,8 @@ class CompanySeeder extends Seeder
      */
     public function run()
     {
-        Company::factory()
-			->times(1000)
+		User::factory()
+			->times(5000)
 			->create();
     }
 }
