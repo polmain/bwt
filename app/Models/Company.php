@@ -10,6 +10,7 @@ class Company extends Model
     use HasFactory;
 
 	public $timestamps = [ "created_at" ];
+	const UPDATED_AT = null;
 
 	protected $fillable = [
 		'name', 'country_id'
