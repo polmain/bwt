@@ -10,6 +10,7 @@ class UserCompany extends Model
     use HasFactory;
 
 	public $timestamps = [ "created_at" ];
+	const UPDATED_AT = null;
 
 	protected $fillable = [
 		'user_id',

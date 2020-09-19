@@ -2,7 +2,6 @@
 
 namespace Database\Seeders;
 
-use Faker\Provider\ar_SA\Company;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -18,6 +17,7 @@ class DatabaseSeeder extends Seeder
 			CountrySeeder::class,
 			CompanySeeder::class,
 			UserSeeder::class,
+			UserCompanySeeder::class,
 		]);
     }
 }
