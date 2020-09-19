@@ -8,4 +8,10 @@ use Illuminate\Database\Eloquent\Model;
 class Country extends Model
 {
     use HasFactory;
+
+	public $timestamps = [ "created_at" ];
+
+	protected $fillable = [
+		'name',
+	];
 }
