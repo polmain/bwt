@@ -16,4 +16,8 @@ class UserCompany extends Model
 		'user_id',
 		'company_id',
 	];
+
+	public function company(){
+		return $this->hasOne('\App\Models\Company','id','company_id');
+	}
 }

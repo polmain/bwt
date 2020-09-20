@@ -16,4 +16,7 @@ class Company extends Model
 		'name', 'country_id'
 	];
 
+	public function country(){
+		return $this->hasOne('\App\Models\Country','id','country_id');
+	}
 }
