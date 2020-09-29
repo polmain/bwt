@@ -9,7 +9,7 @@ class Country extends Model
 {
     use HasFactory;
 
-	public $timestamps = [ "created_at" ];
+	public $timestamps = [ 'created_at' ];
 
 	protected $fillable = [
 		'name',
